@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(188, 236, 216, 0.8);
+}
+.title {
+  text-align: center;
+  background-color: yellow;
+}
+h1 {
+  font-size: 50;
+}
+.subhead {
+  text-decoration: underline;
+}
+.table {
+  width: 40%;
+  border-top: 4px solid;
+  background-color: darkgray;
+}
+td,
+th {
+  padding: 2px;
+  border: 1px solid;
+}
+th {
+  height: 35px;
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+span {
+  font-weight: bold;
+  background-color: white;
+}
+.button {
+  text-align: center;
+}
+footer {
+  font-size: 15px;
+}
+ul {
+  list-style: square;
+}
+a {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:hover {
+  color: orangered;
+  text-decoration: underline;
+  background-color: yellow;
+}
+aside {
+  width: 20%;
+  margin-right: 60px;
+  float: right;
+  background-color: lightgray;
+  padding-left: 10px;
+}
+.form {
+  background-color: yellow;
+  border-top: 3px solid;
+  border-radius: 4px;
+  width: 40%;
+  padding-left: 5%;
+}
